@@ -581,6 +581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0
+  drive: 1
   start: {x: -7.5, y: 6}
   end: {x: -7.5, y: -7}
 --- !u!212 &1797703328
