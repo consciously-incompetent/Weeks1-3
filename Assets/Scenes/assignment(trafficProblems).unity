@@ -540,7 +540,7 @@ MonoBehaviour:
   drive: 1
   start: {x: -5.5, y: 6}
   end: {x: -5.5, y: -7}
-  speed: 1.5
+  speed: 1.4
   limit: -6
 --- !u!1 &1043710073
 GameObject:
@@ -636,20 +636,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043710073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810e9e944082f344ba4cab4f70eef044, type: 3}
+  m_Script: {fileID: 11500000, guid: e885cc096fa91714e80912416fc88abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   curve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -2.07343
+      outSlope: -2.07343
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.020833334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   drive: 0
   start: {x: 7.5, y: -6}
-  end: {x: 7.5, y: 7}
-  speed: 1
-  limit: 7
+  end: {x: 7.5, y: 14}
+  speed: 0.9
+  limit: 14
 --- !u!1 &1379812927
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,19 +854,64 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429418934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810e9e944082f344ba4cab4f70eef044, type: 3}
+  m_Script: {fileID: 11500000, guid: e885cc096fa91714e80912416fc88abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   curve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.12292929
+      value: 0.12292929
+      inSlope: -0.20914055
+      outSlope: -0.20914055
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.33779195
+      value: 0.33779192
+      inSlope: 0.0013076577
+      outSlope: 0.0013076577
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.9709704
+      outWeight: 0.19461364
+    - serializedVersion: 3
+      time: 0.702606
+      value: 0.7053655
+      inSlope: 0.0074426737
+      outSlope: 0.0074426737
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6010533
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.9907212
+      outSlope: 0.9907212
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   drive: 0
   start: {x: 5.5, y: -6}
   end: {x: 5.5, y: 7}
-  speed: 1
+  speed: 0.9
   limit: 7
 --- !u!1 &1797703326
 GameObject:
@@ -907,7 +970,7 @@ MonoBehaviour:
   drive: 1
   start: {x: -7.5, y: 6}
   end: {x: -7.5, y: -7}
-  speed: 1
+  speed: 0.9
   limit: -6
 --- !u!212 &1797703328
 SpriteRenderer:
@@ -970,7 +1033,7 @@ Transform:
   m_GameObject: {fileID: 1797703326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5, y: 6, z: 0}
+  m_LocalPosition: {x: -7.5, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1070,19 +1133,46 @@ MonoBehaviour:
   m_GameObject: {fileID: 1803642979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810e9e944082f344ba4cab4f70eef044, type: 3}
+  m_Script: {fileID: 11500000, guid: e885cc096fa91714e80912416fc88abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   curve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.50256133
+      value: 0.50256133
+      inSlope: -6.0356445
+      outSlope: -6.0356445
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.0534846
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   drive: 0
   start: {x: 3.5, y: -6}
   end: {x: 3.5, y: 7}
-  speed: 1
+  speed: 0.2
   limit: 7
 --- !u!1 &2063656847
 GameObject:
@@ -1208,7 +1298,7 @@ MonoBehaviour:
   drive: 1
   start: {x: -3.5, y: 6}
   end: {x: -3.5, y: -7}
-  speed: 1
+  speed: 0.9
   limit: -6
 --- !u!1 &2091989305
 GameObject:
