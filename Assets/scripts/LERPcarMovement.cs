@@ -8,10 +8,11 @@ public class LERPcarMovement : MonoBehaviour
 {
     public AnimationCurve curve;
     float t;
-    public Boolean drive;
+    public bool drive;
     public Vector2 start;
     public Vector2 end;
-    public float speed = 1; 
+    public float speed = 1;
+    public float limit;
   
 
     // Start is called before the first frame update
@@ -24,17 +25,24 @@ public class LERPcarMovement : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.A)) {
+        if (Input.GetKeyDown(KeyCode.A)) 
+        {
 
-            drive = !drive;
+            drive = true;
         
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            drive = false;
+        }
+
 
 
         if (drive)
         {
             t += speed * Time.deltaTime;
-            if (transform.position.y <= -6)
+            if (transform.position.y <= limit)
             {
                 t = 0;
             }
